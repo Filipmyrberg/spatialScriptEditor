@@ -1,0 +1,77 @@
+div {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+#content-container {
+  width: 90vw;
+  height: 90vh;
+  /* background-color: lightblue; */
+}
+
+#content {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#script-container {
+  /* background-color: green; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#script {
+  /* background-color: purple; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+#script-slider {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+#interaction-container {
+  /* background-color: pink; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#viewport-container {
+  /* background-color: orange; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+#userAction-container {
+  /* background-color: brown; */
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}

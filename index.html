@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="myData"></div>
+    <div id="content-container">
+      <div id="content">
+        <div id="script-container">
+          <div id="script"></div>
+          <div id="script-slider">
+            <!-- <input
+              id="slide"
+              type="range"
+              min="1"
+              max="100"
+              step="1"
+              value="10"
+              onchange="updateSlider(this.value)"
+            /> -->
+
+            <div id="sliderAmount"></div>
+          </div>
+        </div>
+        <div id="interaction-container">
+          <div id="viewport-container">
+            <canvas id="tutorial" width="150" height="150"></canvas>
+          </div>
+          <div id="userAction-container">
+            <input type="text" placeholder="scene Number" id="myInput" />
+            <button type="button" onclick="getInputValue();">push</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
